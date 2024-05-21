@@ -7,13 +7,13 @@ export default function Root() {
       <nav>
         <ul>
           <li>
-            <Link to='/'>About Me</Link>
+            <Link to='/' class='sidebarLink'>About Me</Link>
           </li>
           <li>
-            <Link to='/'>Experience</Link>
+            <Link to='/' class='sidebarLink'>Experience</Link>
           </li>
           <li>
-            <Link to='/'>Education</Link>
+            <Link to='/' class='sidebarLink'>Education</Link>
           </li>
         </ul>
       </nav>

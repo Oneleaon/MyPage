@@ -15,12 +15,25 @@
 
 div .sidebar {
   margin: 0;
-  padding: 0;
+  padding: 5px;
   width 200px;
-  background-color: #f1f1f1;
+  background-color: #333;
   position: fixed;
   height: 100%;
   overflow: auto;
+}
+
+div .sidebarLink {
+  display: block;
+  color: #000;
+  padding: 16px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 a {
