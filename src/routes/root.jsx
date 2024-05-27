@@ -3,17 +3,23 @@ import { Link } from 'react-router-dom';
 export default function Root() {
   return (
     <div class='sidebar'>
-      <h1>Info</h1>
+      <div><Link to='/' class='sidebarHome'>Sections</Link></div>
       <nav>
         <ul>
           <li>
-            <Link to='/' class='sidebarLink'>About Me</Link>
+            <Link to='/' class='sidebarLink'>Home</Link>
           </li>
           <li>
-            <Link to='/' class='sidebarLink'>Experience</Link>
+            <Link to='/aboutme' class='sidebarLink'>About Me</Link>
           </li>
           <li>
-            <Link to='/' class='sidebarLink'>Education</Link>
+            <Link to='/skills' class='sidebarLink'>Skills</Link>
+          </li>
+          <li>
+            <Link to='/experience' class='sidebarLink'>Experience</Link>
+          </li>
+          <li>
+            <Link to='/education' class='sidebarLink'>Education</Link>
           </li>
         </ul>
       </nav>
