@@ -13,10 +13,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mainbody {
+  padding-left: 125px;
+}
+
 .sidebar {
   margin: 0;
   padding: 5px;
-  width 200px;
+  padding-right: 10px;
+  width: 120px;
   background-color: #333;
   position: fixed;
   height: 100%;
@@ -36,7 +41,7 @@
   line-height: 1.1;
   display: block;
   color: #434;
-  padding: 25px 16px 22px 16px;
+  padding: 16px 16px 16px 16px;
   text-decoration: none;
 }
 
