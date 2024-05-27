@@ -13,7 +13,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-div .sidebar {
+.sidebar {
   margin: 0;
   padding: 5px;
   width 200px;
@@ -23,14 +23,14 @@ div .sidebar {
   overflow: auto;
 }
 
-div .sidebarLink {
+.sidebarLink {
   display: block;
   color: #000;
   padding: 16px;
   text-decoration: none;
 }
 
-div .sidebarHome {
+.sidebarHome {
   color: #434;
   font-size: 1.6em;
   line-height: 1.1;
