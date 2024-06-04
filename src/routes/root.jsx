@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export default function Root() {
   return (
     <div class='sidebar'>
-      <div><Link to='/' class='sidebarh1'>Sections</Link></div>
+      <h1 class='sidebarh1'>Sections</h1>
       <hr class='eighty'/>
       <nav>
         <ul>
