@@ -11,9 +11,23 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  background-image: url("../public/images/Tile1.png");
+  background-repeat: repeat;
+}
+
+.bgBody {
+  display: block;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  background: url("../public/images/bg.png");
+  background-size: cover;
 }
 
 .mainbody {
+  margin-top: 0;
   text-align: center;
 }
 
@@ -32,7 +46,7 @@
 }
 
 .homeLink {
-  color: #eee;
+  color: #333;
   text-decoration: none;
   font-size: 16px;
   line-height: 1.2;
@@ -72,6 +86,8 @@ body {
 }
 
 h1 {
+  margin-block: 0;
+  padding-top: 3%;
   color: #747;
   font-size: 48px;
   line-height: 1.1;
@@ -87,6 +103,7 @@ h1 {
 }
 
 p {
+  color: #333;
   font-size: 16px;
   line-height: 1.2;
 }
@@ -96,18 +113,18 @@ p {
 }
 
 .row {
-  margin: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .row:after {
-  align-content: center;
-  display: table;
+  display: flex;
+  justify-content: space-between;
   clear: both;
 }
 
 .col {
   margin: 0 auto;
-  float: left;
   text-align: left;
   width: 48%;
   padding: 10px;
@@ -115,6 +132,12 @@ p {
 
 .col:nth-child(odd) {
   text-align: right;
+}
+
+.end {
+  text-align: right;
+  padding-right: 7px;
+  padding-bottom: 7px;
 }
 
 @media (prefers-color-scheme: light) {
